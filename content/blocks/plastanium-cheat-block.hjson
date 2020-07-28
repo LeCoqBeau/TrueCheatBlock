@@ -1,0 +1,20 @@
+type: Separator
+name: Plastanium Cheat Block
+description: give crazy plastanium
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 2
+updateEffect: smeltsmoke
+consumes: {
+}
+requirements: [
+  copper/20
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+results: [
+    plastanium/20
+]
+research: mechanical-drill

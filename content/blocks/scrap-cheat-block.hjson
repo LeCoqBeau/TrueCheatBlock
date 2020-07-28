@@ -1,0 +1,20 @@
+type: Separator
+name:  Scrap Cheat Block
+description: give scrap
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 1.5
+updateEffect: smeltsmoke
+consumes: {
+}
+requirements: [
+  copper/20
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+results: [
+    scrap/20
+]
+research: mechanical-drill
