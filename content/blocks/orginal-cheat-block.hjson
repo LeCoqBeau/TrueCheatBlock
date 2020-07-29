@@ -1,5 +1,5 @@
 type: Separator
-name: Cheat Block
+name: The Cheat Block
 description: A block which creates items from a tiny amount of power, in large supply. (Useful for skipping campaign.)
 size: 1
 hasPower: true
