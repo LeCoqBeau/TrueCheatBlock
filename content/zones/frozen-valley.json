@@ -1,0 +1,31 @@
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/150
+]
+conditionWave: 15
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+	zone: groundZero
+	wave: 40
+  }
+  {
+    type: Unlock
+	block: pneumatic-drill
+  }
+  {
+    type: Unlock
+	block: silicon-smelter
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  titanium
+  iron
+  sand
+  cobblestone
+]
