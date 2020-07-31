@@ -8,22 +8,17 @@ conditionWave: 20
 launchPeriod: 10
 configureObjective: {
   type: Launched
-  zone: hill-path
+  zone: front-door
 }
 requirements: [
   {
     type: ZoneWave
-	zone: frozen-valley
-	wave: 20
-  }
-  {
-    type: ZoneWave
-	zone: stainedMountains
+	zone: ground-zero
 	wave: 20
   }
   {
     type: Unlock
-	block: cultivator
+	block: duo
   }
   {
     type: Unlock
@@ -37,9 +32,4 @@ requirements: [
 resources: [
   copper
   lead
-  coal
-  titanium
-  iron
-  sand
-  cobblestone
 ]
