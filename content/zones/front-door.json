@@ -13,7 +13,7 @@ configureObjective: {
 requirements: [
   {
     type: ZoneWave
-	zone: frozen-valley
+	zone: groundZero
 	wave: 20
   }
   {
